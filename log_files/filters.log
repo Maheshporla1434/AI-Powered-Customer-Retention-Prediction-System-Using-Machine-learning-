@@ -1,0 +1,3017 @@
+2025-11-04 23:35:21,083 - INFO - gender              0
+Partner             0
+Dependents          0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+sim                 0
+dtype: int64
+2025-11-04 23:35:21,092 - INFO - gender              0
+Partner             0
+Dependents          0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+sim                 0
+dtype: int64
+2025-11-04 23:40:05,279 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-04 23:40:05,288 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-04 23:40:05,288 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-04 23:40:05,299 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-04 23:40:05,318 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-04 23:40:05,318 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-04 23:40:05,327 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-04 23:40:05,327 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-04 23:40:05,327 - INFO - [0 0 1 ... 0 1 0]
+2025-11-04 23:40:05,334 - INFO - T=-12.417, P=0.00000
+2025-11-04 23:40:05,334 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-04 23:48:42,191 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-04 23:48:42,200 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-04 23:48:42,209 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-04 23:48:42,211 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-04 23:48:42,231 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-04 23:48:42,240 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-04 23:48:42,240 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-04 23:48:42,240 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-04 23:48:42,240 - INFO - [0 0 1 ... 0 1 0]
+2025-11-04 23:48:42,250 - INFO - T=-12.417, P=0.00000
+2025-11-04 23:48:42,250 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 08:53:12,474 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 08:53:12,489 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 08:53:12,502 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 08:53:12,508 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 08:53:12,539 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 08:53:12,551 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 08:53:12,557 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 08:53:12,562 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 08:53:12,563 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 08:53:12,566 - INFO - T=-12.417, P=0.00000
+2025-11-05 08:53:12,566 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 09:04:01,103 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 09:04:01,119 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 09:04:01,119 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 09:04:01,137 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 09:04:01,165 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 09:04:01,165 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 09:04:01,181 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:04:01,181 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:04:01,181 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 09:04:01,181 - INFO - T=-12.417, P=0.00000
+2025-11-05 09:04:01,181 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 09:16:03,055 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 09:16:03,071 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 09:16:03,073 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 09:16:03,082 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 09:16:03,087 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 09:16:03,103 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 09:16:03,103 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:16:03,119 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:16:03,119 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 09:16:03,119 - INFO - T=-12.417, P=0.00000
+2025-11-05 09:16:03,119 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 09:17:39,141 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 09:17:39,155 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 09:17:39,155 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 09:17:39,171 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 09:17:39,211 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 09:17:39,219 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 09:17:39,219 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:17:39,235 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:17:39,235 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 09:17:39,235 - INFO - T=-12.417, P=0.00000
+2025-11-05 09:17:39,235 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 09:23:34,180 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 09:23:34,194 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 09:23:34,197 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 09:23:34,197 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 09:23:34,223 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 09:23:34,231 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 09:23:34,231 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:23:34,231 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 09:23:34,231 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 09:23:34,231 - INFO - T=-12.417, P=0.00000
+2025-11-05 09:23:34,231 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 11:10:07,613 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 11:10:07,621 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 11:10:07,621 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 11:10:07,621 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 11:10:07,637 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 11:10:07,637 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 11:10:07,647 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:10:07,647 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:10:07,647 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 11:10:07,653 - INFO - T=-12.417, P=0.00000
+2025-11-05 11:10:07,653 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 11:19:17,202 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 11:19:17,202 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 11:19:17,202 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 11:19:17,217 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 11:19:17,229 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 11:19:17,233 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 11:19:17,233 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:19:17,233 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:19:17,233 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 11:19:17,233 - INFO - T=-12.417, P=0.00000
+2025-11-05 11:19:17,233 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 11:21:54,847 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 11:21:54,852 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 11:21:54,861 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 11:21:54,863 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 11:21:54,875 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 11:21:54,878 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 11:21:54,878 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:21:54,878 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:21:54,878 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 11:21:54,886 - INFO - T=-12.417, P=0.00000
+2025-11-05 11:21:54,886 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 11:26:00,355 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 11:26:00,359 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 11:26:00,359 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 11:26:00,359 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 11:26:00,371 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 11:26:00,387 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 11:26:00,387 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:26:00,387 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 11:26:00,387 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 11:26:00,387 - INFO - T=-12.417, P=0.00000
+2025-11-05 11:26:00,387 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:18:05,108 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:18:05,108 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:18:05,123 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:18:05,127 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:18:05,140 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:18:05,140 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:18:05,145 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:18:05,145 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:18:05,145 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:18:05,150 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:18:05,150 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:19:58,639 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:19:58,644 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:19:58,650 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:19:58,654 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:19:58,673 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:19:58,683 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:19:58,688 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:19:58,691 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:19:58,691 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:19:58,691 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:19:58,691 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:23:01,291 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:23:01,291 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:23:01,291 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:23:01,291 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:23:01,307 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:23:01,307 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:23:01,323 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:23:01,323 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:23:01,323 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:23:01,323 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:23:01,323 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:26:26,357 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:26:26,357 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:26:26,372 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:26:26,372 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:26:26,388 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:26:26,388 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:26:26,388 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:26:26,388 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:26:26,388 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:26:26,388 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:26:26,388 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:27:35,911 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:27:35,927 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:27:35,927 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:27:35,927 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:27:35,944 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:27:35,944 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:27:35,944 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:27:35,958 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:27:35,958 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:27:35,960 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:27:35,960 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:28:16,598 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:28:16,607 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:28:16,607 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:28:16,607 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:28:16,623 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:28:16,623 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:28:16,623 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:28:16,623 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:28:16,623 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:28:16,623 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:28:16,623 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:33:10,627 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:33:10,643 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:33:10,643 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:33:10,643 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:33:10,658 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:33:10,658 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:33:10,658 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:33:10,658 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:33:10,658 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:33:10,674 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:33:10,674 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 12:38:39,564 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 12:38:39,580 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 12:38:39,580 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 12:38:39,580 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 12:38:39,595 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 12:38:39,595 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 12:38:39,595 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:38:39,611 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 12:38:39,611 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 12:38:39,611 - INFO - T=-12.417, P=0.00000
+2025-11-05 12:38:39,611 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 15:16:40,069 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 15:16:40,069 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 15:16:40,085 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 15:16:40,085 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 15:16:40,115 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 15:16:40,115 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 15:16:40,115 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 15:16:40,135 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 15:16:40,136 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 15:16:40,136 - INFO - T=-12.417, P=0.00000
+2025-11-05 15:16:40,136 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 15:34:49,334 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 15:34:49,339 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 15:34:49,355 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 15:34:49,355 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 15:34:49,374 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 15:34:49,385 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 15:34:49,393 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 15:34:49,393 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 15:34:49,393 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 15:34:49,393 - INFO - T=-12.417, P=0.00000
+2025-11-05 15:34:49,393 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-05 22:08:14,714 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-05 22:08:14,727 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-05 22:08:14,736 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-05 22:08:14,741 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-05 22:08:14,771 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-05 22:08:14,780 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-05 22:08:14,785 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 22:08:14,791 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-05 22:08:14,791 - INFO - [0 0 1 ... 0 1 0]
+2025-11-05 22:08:14,796 - INFO - T=-12.417, P=0.00000
+2025-11-05 22:08:14,796 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-06 09:27:02,649 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 09:27:02,668 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 09:27:02,680 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 09:27:02,686 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 09:27:02,712 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 09:27:02,712 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 09:27:02,728 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-06 09:27:02,737 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-06 09:27:02,737 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 09:27:02,741 - INFO - T=-12.417, P=0.00000
+2025-11-06 09:27:02,741 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-06 11:10:32,298 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:10:32,304 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:10:32,310 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:10:32,312 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:10:32,325 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:10:32,328 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+2        JoinYear  693.891160  2.589060e-144
+1    TotalCharges  306.089946   8.826403e-67
+0  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:10:32,328 - INFO - Removed features:       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-06 11:10:32,328 - INFO -       MonthlyCharges  TotalCharges  JoinYear
+2142       -0.147316     -0.041350      2016
+1623        0.995273      1.025403      2019
+6074       -0.963839     -2.018448      2015
+1362       -0.018820     -0.903868      2015
+6754       -0.184216     -0.481102      2014
+2025-11-06 11:10:32,328 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:10:32,328 - INFO - T=-12.417, P=0.00000
+2025-11-06 11:10:32,328 - INFO - Selected Features: ['MonthlyCharges']
+2025-11-06 11:17:39,054 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:17:39,058 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:17:39,058 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:17:39,058 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:17:39,069 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:17:39,069 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:17:39,085 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:17:39,085 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:17:39,085 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:17:39,085 - INFO - T=27.578, P=0.00000
+2025-11-06 11:17:39,085 - INFO - Selected Features: ['tenure']
+2025-11-06 11:18:47,474 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:18:47,490 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:18:47,490 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:18:47,490 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:18:47,506 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:18:47,506 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:18:47,506 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:18:47,522 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:18:47,522 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:18:47,522 - INFO - T=27.578, P=0.00000
+2025-11-06 11:18:47,522 - INFO - Selected Features: ['tenure']
+2025-11-06 11:38:09,159 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:38:09,170 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:38:09,176 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:38:09,178 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:38:09,192 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:38:09,196 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:38:09,200 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:38:09,202 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:38:09,202 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:38:09,204 - INFO - T=27.578, P=0.00000
+2025-11-06 11:38:09,204 - INFO - Selected Features: ['tenure']
+2025-11-06 11:48:54,926 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:48:54,931 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:48:54,940 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:48:54,940 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:48:54,953 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:48:54,953 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:48:54,962 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:48:54,962 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:48:54,962 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:48:54,962 - INFO - T=27.578, P=0.00000
+2025-11-06 11:48:54,962 - INFO - Selected Features: ['tenure']
+2025-11-06 11:57:13,434 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 11:57:13,449 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 11:57:13,449 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 11:57:13,449 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 11:57:13,465 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 11:57:13,472 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 11:57:13,472 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:57:13,481 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 11:57:13,481 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 11:57:13,483 - INFO - T=27.578, P=0.00000
+2025-11-06 11:57:13,483 - INFO - Selected Features: ['tenure']
+2025-11-06 12:01:17,548 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 12:01:17,566 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 12:01:17,571 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 12:01:17,573 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 12:01:17,585 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 12:01:17,590 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 12:01:17,593 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 12:01:17,594 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 12:01:17,594 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 12:01:17,594 - INFO - T=27.578, P=0.00000
+2025-11-06 12:01:17,594 - INFO - Selected Features: ['tenure']
+2025-11-06 17:00:47,347 - INFO - sim                                      0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Contract_con                             0
+SeniorCitizen                            0
+dtype: int64
+2025-11-06 17:00:47,363 - INFO - X_new.shape: [[0. 0. 0. ... 0. 0. 1.]
+ [1. 0. 0. ... 0. 0. 2.]
+ [0. 0. 0. ... 0. 1. 0.]
+ ...
+ [0. 1. 1. ... 1. 1. 0.]
+ [1. 0. 0. ... 0. 1. 0.]
+ [0. 1. 1. ... 1. 0. 1.]]
+2025-11-06 17:00:47,371 - INFO - Chi score data frame :
+                                 Features   Chi_score       p values
+25                           Contract_con  873.211647  6.537090e-192
+23         PaymentMethod_Electronic check  328.970764   1.610488e-73
+7             InternetService_Fiber optic  286.338882   3.121031e-64
+13   DeviceProtection_No internet service  222.180842   3.024801e-50
+15        TechSupport_No internet service  222.180842   3.024801e-50
+19    StreamingMovies_No internet service  222.180842   3.024801e-50
+17        StreamingTV_No internet service  222.180842   3.024801e-50
+8                      InternetService_No  222.180842   3.024801e-50
+11       OnlineBackup_No internet service  222.180842   3.024801e-50
+9      OnlineSecurity_No internet service  222.180842   3.024801e-50
+10                     OnlineSecurity_Yes  119.252526   9.221060e-28
+16                        TechSupport_Yes  106.046669   7.201899e-25
+3                          Dependents_Yes  104.146764   1.878713e-24
+26                          SeniorCitizen  102.275240   4.831939e-24
+21                   PaperlessBilling_Yes   84.520367   3.802772e-20
+22  PaymentMethod_Credit card (automatic)   80.516452   2.882947e-19
+2                             Partner_Yes   58.775844   1.766973e-14
+24             PaymentMethod_Mailed check   37.176717   1.078943e-09
+12                       OnlineBackup_Yes   24.277148   8.342293e-07
+14                   DeviceProtection_Yes   14.833141   1.174533e-04
+20                    StreamingMovies_Yes   14.429373   1.455148e-04
+18                        StreamingTV_Yes   12.486572   4.098877e-04
+6                       MultipleLines_Yes    4.240435   3.947206e-02
+0                                     sim    1.267501   2.602359e-01
+5          MultipleLines_No phone service    0.401322   5.264072e-01
+1                             gender_Male    0.377925   5.387158e-01
+4                        PhoneService_Yes    0.043591   8.346163e-01
+2025-11-06 17:00:47,371 - INFO - Removed features: 5    MultipleLines_No phone service
+1                       gender_Male
+4                  PhoneService_Yes
+Name: Features, dtype: object
+2025-11-06 17:00:47,379 - INFO -       sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+2142    2          0.0             1.0                0.0  ...                             0.0                         1.0           1.0              0
+1623    1          0.0             0.0                1.0  ...                             0.0                         0.0           2.0              0
+6074    0          1.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+1362    1          0.0             0.0                0.0  ...                             1.0                         0.0           0.0              0
+6754    2          0.0             1.0                1.0  ...                             0.0                         0.0           2.0              0
+
+[5 rows x 24 columns]
+2025-11-06 17:00:47,394 - INFO - ANOVA Results:
+          Feature     F_Score        p_value
+0          tenure  760.541605  3.780534e-157
+3        JoinYear  693.891160  2.589060e-144
+2    TotalCharges  306.089946   8.826403e-67
+1  MonthlyCharges  154.190532   6.012687e-35
+2025-11-06 17:00:47,394 - INFO - Removed features:       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 17:00:47,394 - INFO -       tenure  MonthlyCharges  TotalCharges  JoinYear
+2142      21       -0.147316     -0.041350      2016
+1623      54        0.995273      1.025403      2019
+6074       1       -0.963839     -2.018448      2015
+1362       4       -0.018820     -0.903868      2015
+6754       0       -0.184216     -0.481102      2014
+2025-11-06 17:00:47,394 - INFO - [0 0 1 ... 0 1 0]
+2025-11-06 17:00:47,394 - INFO - T=27.578, P=0.00000
+2025-11-06 17:00:47,394 - INFO - Selected Features: ['tenure']

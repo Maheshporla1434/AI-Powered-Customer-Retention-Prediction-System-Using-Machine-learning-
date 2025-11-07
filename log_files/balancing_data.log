@@ -1,0 +1,156 @@
+2025-11-05 09:17:39,268 - INFO - ----------------Before Balancing------------------------
+2025-11-05 09:17:39,268 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 09:17:39,268 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 09:17:39,268 - INFO - ---------------After Balancing-------------------------
+2025-11-05 09:17:42,317 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 09:17:42,317 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 09:23:34,245 - INFO - ----------------Before Balancing------------------------
+2025-11-05 09:23:34,245 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 09:23:34,245 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 09:23:34,245 - INFO - ---------------After Balancing-------------------------
+2025-11-05 09:23:36,437 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 09:23:36,437 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 11:10:07,653 - INFO - ----------------Before Balancing------------------------
+2025-11-05 11:10:07,653 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 11:10:07,653 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 11:10:07,653 - INFO - ---------------After Balancing-------------------------
+2025-11-05 11:10:09,839 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 11:10:09,839 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 11:19:17,248 - INFO - ----------------Before Balancing------------------------
+2025-11-05 11:19:17,248 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 11:19:17,248 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 11:19:17,248 - INFO - ---------------After Balancing-------------------------
+2025-11-05 11:19:18,834 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 11:19:18,834 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 11:21:54,894 - INFO - ----------------Before Balancing------------------------
+2025-11-05 11:21:54,894 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 11:21:54,894 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 11:21:54,894 - INFO - ---------------After Balancing-------------------------
+2025-11-05 11:21:56,386 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 11:21:56,386 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 11:26:00,403 - INFO - ----------------Before Balancing------------------------
+2025-11-05 11:26:00,403 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 11:26:00,403 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 11:26:00,403 - INFO - ---------------After Balancing-------------------------
+2025-11-05 11:26:01,877 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 11:26:01,877 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:18:05,160 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:18:05,160 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:18:05,160 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:18:05,160 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:18:07,135 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:18:07,135 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:19:58,691 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:19:58,691 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:19:58,691 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:19:58,691 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:20:00,285 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:20:00,287 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:23:01,341 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:23:01,341 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:23:01,341 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:23:01,341 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:23:02,732 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:23:02,732 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:26:26,404 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:26:26,404 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:26:26,404 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:26:26,404 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:26:27,793 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:26:27,795 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:27:35,960 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:27:35,960 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:27:35,960 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:27:35,960 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:27:37,420 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:27:37,420 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:28:16,642 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:28:16,642 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:28:16,642 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:28:16,642 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:28:18,040 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:28:18,041 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:33:10,682 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:33:10,682 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:33:10,682 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:33:10,682 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:33:12,208 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:33:12,208 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 12:38:39,622 - INFO - ----------------Before Balancing------------------------
+2025-11-05 12:38:39,622 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 12:38:39,624 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 12:38:39,624 - INFO - ---------------After Balancing-------------------------
+2025-11-05 12:38:41,131 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 12:38:41,131 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 15:16:40,151 - INFO - ----------------Before Balancing------------------------
+2025-11-05 15:16:40,151 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 15:16:40,151 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 15:16:40,151 - INFO - ---------------After Balancing-------------------------
+2025-11-05 15:16:42,941 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 15:16:42,943 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 15:34:49,418 - INFO - ----------------Before Balancing------------------------
+2025-11-05 15:34:49,418 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 15:34:49,418 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 15:34:49,418 - INFO - ---------------After Balancing-------------------------
+2025-11-05 15:34:51,506 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 15:34:51,508 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-05 22:08:14,812 - INFO - ----------------Before Balancing------------------------
+2025-11-05 22:08:14,813 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-05 22:08:14,814 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-05 22:08:14,814 - INFO - ---------------After Balancing-------------------------
+2025-11-05 22:08:17,551 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-05 22:08:17,553 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 09:27:02,759 - INFO - ----------------Before Balancing------------------------
+2025-11-06 09:27:02,759 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 09:27:02,759 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 09:27:02,759 - INFO - ---------------After Balancing-------------------------
+2025-11-06 09:27:05,116 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 09:27:05,116 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:10:32,344 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:10:32,344 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:10:32,344 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:10:32,344 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:10:34,232 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:10:34,232 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:17:39,085 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:17:39,085 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:17:39,085 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:17:39,085 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:17:40,511 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:17:40,513 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:18:47,522 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:18:47,522 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:18:47,522 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:18:47,522 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:18:49,060 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:18:49,060 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:38:09,214 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:38:09,214 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:38:09,216 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:38:09,216 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:38:10,768 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:38:10,769 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:48:54,962 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:48:54,962 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:48:54,962 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:48:54,962 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:48:56,600 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:48:56,600 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 11:57:13,489 - INFO - ----------------Before Balancing------------------------
+2025-11-06 11:57:13,489 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 11:57:13,489 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 11:57:13,489 - INFO - ---------------After Balancing-------------------------
+2025-11-06 11:57:15,027 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 11:57:15,027 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 12:01:17,594 - INFO - ----------------Before Balancing------------------------
+2025-11-06 12:01:17,594 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 12:01:17,594 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 12:01:17,594 - INFO - ---------------After Balancing-------------------------
+2025-11-06 12:01:19,109 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 12:01:19,109 - INFO - Total row for Bad category in training data 8276 was : 4138
+2025-11-06 17:00:47,412 - INFO - ----------------Before Balancing------------------------
+2025-11-06 17:00:47,412 - INFO - Total row for Good category in training data 5634 was : 1496
+2025-11-06 17:00:47,412 - INFO - Total row for Bad category in training data 5634 was : 4138
+2025-11-06 17:00:47,412 - INFO - ---------------After Balancing-------------------------
+2025-11-06 17:00:49,609 - INFO - Total row for Good category in training data 8276 was : 4138
+2025-11-06 17:00:49,611 - INFO - Total row for Bad category in training data 8276 was : 4138

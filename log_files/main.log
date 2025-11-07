@@ -1,0 +1,651 @@
+
+2025-11-06 11:18:44,919 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 11:18:44,919 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:18:44,919 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:18:44,928 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:18:44,928 - INFO - x_test shape:(1409, 21)
+2025-11-06 11:18:44,928 - INFO - x_train shape:(5634, 21)
+2025-11-06 11:18:44,928 - INFO - y_train shape:(5634,)
+2025-11-06 11:18:44,928 - INFO - y_test shape:(1409,)
+2025-11-06 11:18:44,928 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 11:18:44,928 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 11:18:47,366 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:18:47,366 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:18:47,366 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 11:18:47,411 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:18:47,411 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:18:47,411 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:18:47,411 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:18:57,932 - INFO - _Finalized Model
+2025-11-06 11:18:57,977 - INFO - Train accuracy:0.7754954084098599
+2025-11-06 11:18:57,979 - INFO - Test accuracy:0.759403832505323
+2025-11-06 11:18:57,979 - INFO - =====Model Saving======
+2025-11-06 11:18:57,981 - INFO - Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'sim', 'Partner_Yes',
+       'Dependents_Yes', 'MultipleLines_Yes', 'InternetService_Fiber optic',
+       'InternetService_No', 'OnlineSecurity_No internet service',
+       'OnlineSecurity_Yes', 'OnlineBackup_No internet service',
+       'OnlineBackup_Yes', 'DeviceProtection_No internet service',
+       'DeviceProtection_Yes', 'TechSupport_No internet service',
+       'TechSupport_Yes', 'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 11:38:06,589 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 11:38:06,589 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:38:06,591 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:38:06,591 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:38:06,591 - INFO - x_test shape:(1409, 21)
+2025-11-06 11:38:06,591 - INFO - x_train shape:(5634, 21)
+2025-11-06 11:38:06,591 - INFO - y_train shape:(5634,)
+2025-11-06 11:38:06,591 - INFO - y_test shape:(1409,)
+2025-11-06 11:38:06,597 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 11:38:06,597 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 11:38:08,991 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:38:08,991 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:38:08,991 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 11:38:09,052 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:38:09,054 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:38:09,054 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:38:09,054 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:38:10,769 - INFO - 111111111Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear', 'sim',
+       'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 11:38:10,769 - INFO - JoinYear : 0       2016
+1       2019
+2       2015
+3       2015
+4       2014
+        ... 
+8271    2015
+8272    2017
+8273    2017
+8274    2018
+8275    2017
+Name: JoinYear, Length: 8276, dtype: int64
+2025-11-06 11:38:10,770 - INFO - ---------Before scaling standardscalar-------
+2025-11-06 11:38:10,778 - INFO -    tenure  MonthlyCharges  TotalCharges  sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0      21       -0.147316     -0.041350    2  ...                             0.0                         1.0           1.0              0
+1      54        0.995273      1.025403    1  ...                             0.0                         0.0           2.0              0
+2       1       -0.963839     -2.018448    0  ...                             1.0                         0.0           0.0              0
+3       4       -0.018820     -0.903868    1  ...                             1.0                         0.0           0.0              0
+
+[4 rows x 27 columns]
+2025-11-06 11:38:10,792 - INFO - ----------After scaling using standard scalar--------
+2025-11-06 11:38:10,806 - INFO -      tenure  MonthlyCharges  TotalCharges       sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0 -0.294421       -0.252416      0.067970  0.515799  ...                       -0.870577                    2.007407      0.635875      -0.426356
+1  1.085914        0.966847      1.136666 -0.397303  ...                       -0.870577                   -0.515394      1.946239      -0.426356
+2 -1.130987       -1.123734     -1.912729 -1.310406  ...                        1.211364                   -0.515394     -0.674490      -0.426356
+3 -1.005502       -0.115297     -0.796119 -0.397303  ...                        1.211364                   -0.515394     -0.674490      -0.426356
+
+[4 rows x 27 columns]
+2025-11-06 11:38:10,817 - INFO -      tenure  MonthlyCharges  TotalCharges       sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0 -1.249950       -0.855059     -1.899231  1.301553  ...                        1.395600                   -0.553027     -0.814394      -0.448546
+1  0.344202       -0.789780     -0.209517 -0.479786  ...                       -0.716538                   -0.553027     -0.814394      -0.448546
+2  0.782594       -2.137150     -0.182068 -1.370456  ...                       -0.716538                    1.808230      1.544252      -0.448546
+3 -1.249950        0.233758     -1.324416  1.301553  ...                        1.395600                   -0.553027     -0.814394      -0.448546
+4  1.380401       -0.423189      0.552385 -0.479786  ...                       -0.716538                   -0.553027      1.544252      -0.448546
+
+[5 rows x 27 columns]
+2025-11-06 11:38:10,817 - INFO - successfully executed
+2025-11-06 11:48:51,061 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 11:48:51,061 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:48:51,061 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:48:51,061 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:48:51,061 - INFO - x_test shape:(1409, 21)
+2025-11-06 11:48:51,061 - INFO - x_train shape:(5634, 21)
+2025-11-06 11:48:51,061 - INFO - y_train shape:(5634,)
+2025-11-06 11:48:51,061 - INFO - y_test shape:(1409,)
+2025-11-06 11:48:51,078 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 11:48:51,078 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 11:48:54,794 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:48:54,794 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:48:54,794 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 11:48:54,851 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:48:54,851 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:48:54,851 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:48:54,851 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:48:56,600 - INFO - 111111111Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear', 'sim',
+       'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 11:48:56,602 - INFO - JoinYear : 0       2016
+1       2019
+2       2015
+3       2015
+4       2014
+        ... 
+8271    2015
+8272    2017
+8273    2017
+8274    2018
+8275    2017
+Name: JoinYear, Length: 8276, dtype: int64
+2025-11-06 11:48:56,604 - INFO - ---------Before scaling standardscalar-------
+2025-11-06 11:48:56,619 - INFO -    tenure  MonthlyCharges  TotalCharges  sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0      21       -0.147316     -0.041350    2  ...                             0.0                         1.0           1.0              0
+1      54        0.995273      1.025403    1  ...                             0.0                         0.0           2.0              0
+2       1       -0.963839     -2.018448    0  ...                             1.0                         0.0           0.0              0
+3       4       -0.018820     -0.903868    1  ...                             1.0                         0.0           0.0              0
+
+[4 rows x 27 columns]
+2025-11-06 11:48:56,627 - INFO - ----------After scaling using standard scalar--------
+2025-11-06 11:48:56,627 - INFO -    tenure  sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  Contract_con  SeniorCitizen  MonthlyCharges  TotalCharges  JoinYear
+0      21    2          0.0             1.0                0.0  ...           1.0              0       -0.252416      0.067970      2016
+1      54    1          0.0             0.0                1.0  ...           2.0              0        0.966847      1.136666      2019
+2       1    0          1.0             0.0                0.0  ...           0.0              0       -1.123734     -1.912729      2015
+3       4    1          0.0             0.0                0.0  ...           0.0              0       -0.115297     -0.796119      2015
+
+[4 rows x 28 columns]
+2025-11-06 11:48:56,640 - INFO - successfully executed
+2025-11-06 11:49:14,394 - INFO - _Finalized Model
+2025-11-06 11:49:14,639 - INFO - Train accuracy:0.7677622039632673
+2025-11-06 11:49:14,643 - INFO - Test accuracy:0.7579843860894251
+2025-11-06 11:49:14,643 - INFO - =====Model Saving======
+2025-11-06 11:49:14,645 - INFO - Index(['tenure', 'sim', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:04,900 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 11:57:04,900 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:04,916 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:04,916 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:04,916 - INFO - x_test shape:(1409, 21)
+2025-11-06 11:57:04,916 - INFO - x_train shape:(5634, 21)
+2025-11-06 11:57:04,916 - INFO - y_train shape:(5634,)
+2025-11-06 11:57:04,916 - INFO - y_test shape:(1409,)
+2025-11-06 11:57:04,916 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 11:57:04,916 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 11:57:13,306 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:57:13,306 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:57:13,306 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 11:57:13,364 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:57:13,364 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 11:57:13,364 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:13,364 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 11:57:15,027 - INFO - 111111111Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear', 'sim',
+       'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 11:57:15,027 - INFO - JoinYear : 0       2016
+1       2019
+2       2015
+3       2015
+4       2014
+        ... 
+8271    2015
+8272    2017
+8273    2017
+8274    2018
+8275    2017
+Name: JoinYear, Length: 8276, dtype: int64
+2025-11-06 11:57:15,029 - INFO - ---------Before scaling standardscalar-------
+2025-11-06 11:57:15,042 - INFO -    tenure  MonthlyCharges  TotalCharges  sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0      21       -0.147316     -0.041350    2  ...                             0.0                         1.0           1.0              0
+1      54        0.995273      1.025403    1  ...                             0.0                         0.0           2.0              0
+2       1       -0.963839     -2.018448    0  ...                             1.0                         0.0           0.0              0
+3       4       -0.018820     -0.903868    1  ...                             1.0                         0.0           0.0              0
+
+[4 rows x 27 columns]
+2025-11-06 11:57:15,047 - INFO - ----------After scaling using standard scalar--------
+2025-11-06 11:57:15,047 - INFO -    tenure  sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  Contract_con  SeniorCitizen  MonthlyCharges  TotalCharges  JoinYear
+0      21    2          0.0             1.0                0.0  ...           1.0              0       -0.252416      0.067970      2016
+1      54    1          0.0             0.0                1.0  ...           2.0              0        0.966847      1.136666      2019
+2       1    0          1.0             0.0                0.0  ...           0.0              0       -1.123734     -1.912729      2015
+3       4    1          0.0             0.0                0.0  ...           0.0              0       -0.115297     -0.796119      2015
+
+[4 rows x 28 columns]
+2025-11-06 11:57:15,068 - INFO - successfully executed
+2025-11-06 11:57:30,398 - INFO - _Finalized Model
+2025-11-06 11:57:30,472 - INFO - Train accuracy:0.7677622039632673
+2025-11-06 11:57:30,488 - INFO - Test accuracy:0.7579843860894251
+2025-11-06 11:57:30,488 - INFO - =====Model Saving======
+2025-11-06 11:57:30,488 - INFO - Index(['tenure', 'sim', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:14,469 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 12:01:14,469 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:14,469 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:14,469 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:14,469 - INFO - x_test shape:(1409, 21)
+2025-11-06 12:01:14,469 - INFO - x_train shape:(5634, 21)
+2025-11-06 12:01:14,469 - INFO - y_train shape:(5634,)
+2025-11-06 12:01:14,469 - INFO - y_test shape:(1409,)
+2025-11-06 12:01:14,469 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 12:01:14,469 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 12:01:17,422 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 12:01:17,422 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 12:01:17,422 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 12:01:17,484 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 12:01:17,484 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 12:01:17,484 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:17,484 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 12:01:19,109 - INFO - 111111111Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear', 'sim',
+       'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 12:01:19,109 - INFO - JoinYear : 0       2016
+1       2019
+2       2015
+3       2015
+4       2014
+        ... 
+8271    2015
+8272    2017
+8273    2017
+8274    2018
+8275    2017
+Name: JoinYear, Length: 8276, dtype: int64
+2025-11-06 12:01:19,109 - INFO - ---------Before scaling standardscalar-------
+2025-11-06 12:01:19,126 - INFO -    tenure  MonthlyCharges  TotalCharges  sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0      21       -0.147316     -0.041350    2  ...                             0.0                         1.0           1.0              0
+1      54        0.995273      1.025403    1  ...                             0.0                         0.0           2.0              0
+2       1       -0.963839     -2.018448    0  ...                             1.0                         0.0           0.0              0
+3       4       -0.018820     -0.903868    1  ...                             1.0                         0.0           0.0              0
+
+[4 rows x 27 columns]
+2025-11-06 12:01:19,132 - INFO - ----------After scaling using standard scalar--------
+2025-11-06 12:01:19,132 - INFO -    tenure  sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  Contract_con  SeniorCitizen  MonthlyCharges  TotalCharges  JoinYear
+0      21    2          0.0             1.0                0.0  ...           1.0              0       -0.252416      0.067970      2016
+1      54    1          0.0             0.0                1.0  ...           2.0              0        0.966847      1.136666      2019
+2       1    0          1.0             0.0                0.0  ...           0.0              0       -1.123734     -1.912729      2015
+3       4    1          0.0             0.0                0.0  ...           0.0              0       -0.115297     -0.796119      2015
+
+[4 rows x 28 columns]
+2025-11-06 12:01:19,141 - INFO - successfully executed
+2025-11-06 12:01:34,431 - INFO - _Finalized Model
+2025-11-06 12:01:34,507 - INFO - Train accuracy:0.7677622039632673
+2025-11-06 12:01:34,512 - INFO - Test accuracy:0.7579843860894251
+2025-11-06 12:01:34,512 - INFO - =====Model Saving======
+2025-11-06 12:01:34,512 - INFO - Index(['tenure', 'sim', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 16:57:48,076 - INFO - Top five rows from dataset:   customerID  gender  SeniorCitizen Partner Dependents  tenure PhoneService  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn     sim JoinYear
+0  7590-VHVEG  Female              0     Yes         No       1           No  ...              Yes           Electronic check          29.85        29.85    No     Jio     2015
+1  5575-GNVDE    Male              0      No         No      34          Yes  ...               No               Mailed check          56.95       1889.5    No  Airtel     2017
+2  3668-QPYBK    Male              0      No         No       2          Yes  ...              Yes               Mailed check          53.85       108.15   Yes      Vi     2015
+3  7795-CFOCW    Male              0      No         No      45           No  ...               No  Bank transfer (automatic)          42.30      1840.75    No  Airtel     2018
+4  9237-HQITU  Female              0      No         No       2          Yes  ...              Yes           Electronic check          70.70       151.65   Yes  Airtel     2015
+
+[5 rows x 23 columns]
+2025-11-06 16:57:48,076 - INFO -  Total Columns: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'sim',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 16:57:48,076 - INFO - x_test :Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 16:57:48,076 - INFO - x_train:Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear'],
+      dtype='object')
+2025-11-06 16:57:48,076 - INFO - x_test shape:(1409, 21)
+2025-11-06 16:57:48,076 - INFO - x_train shape:(5634, 21)
+2025-11-06 16:57:48,076 - INFO - y_train shape:(5634,)
+2025-11-06 16:57:48,076 - INFO - y_test shape:(1409,)
+2025-11-06 16:57:48,092 - INFO -  checking null values in x_train Total_charges    10
+dtype: int64
+2025-11-06 16:57:48,092 - INFO -  checking null values in x_test Total_charges    1
+dtype: int64
+2025-11-06 16:57:52,369 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 16:57:52,371 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 16:57:52,371 - INFO - started : Index(['MonthlyCharges', 'TotalCharges'], dtype='object')
+2025-11-06 17:00:47,262 - INFO - x_test_cat :Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 17:00:47,262 - INFO - x_train_cat:Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'sim'],
+      dtype='object')
+2025-11-06 17:00:47,262 - INFO - x_test_num :Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 17:00:47,262 - INFO - x_train_num:Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')
+2025-11-06 17:00:49,611 - INFO - 111111111Index(['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear', 'sim',
+       'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen'],
+      dtype='object')
+2025-11-06 17:00:49,611 - INFO - JoinYear : 0       2016
+1       2019
+2       2015
+3       2015
+4       2014
+        ... 
+8271    2015
+8272    2017
+8273    2017
+8274    2018
+8275    2017
+Name: JoinYear, Length: 8276, dtype: int64
+2025-11-06 17:00:49,615 - INFO - ---------Before scaling standardscalar-------
+2025-11-06 17:00:49,630 - INFO -    tenure  MonthlyCharges  TotalCharges  sim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_con  SeniorCitizen
+0      21       -0.147316     -0.041350    2  ...                             0.0                         1.0           1.0              0
+1      54        0.995273      1.025403    1  ...                             0.0                         0.0           2.0              0
+2       1       -0.963839     -2.018448    0  ...                             1.0                         0.0           0.0              0
+3       4       -0.018820     -0.903868    1  ...                             1.0                         0.0           0.0              0
+
+[4 rows x 27 columns]
+2025-11-06 17:00:49,638 - INFO - ----------After scaling using standard scalar--------
+2025-11-06 17:00:49,640 - INFO -    tenure  sim  Partner_Yes  Dependents_Yes  MultipleLines_Yes  ...  Contract_con  SeniorCitizen  MonthlyCharges  TotalCharges  JoinYear
+0      21    2          0.0             1.0                0.0  ...           1.0              0       -0.252416      0.067970      2016
+1      54    1          0.0             0.0                1.0  ...           2.0              0        0.966847      1.136666      2019
+2       1    0          1.0             0.0                0.0  ...           0.0              0       -1.123734     -1.912729      2015
+3       4    1          0.0             0.0                0.0  ...           0.0              0       -0.115297     -0.796119      2015
+
+[4 rows x 28 columns]
+2025-11-06 17:00:49,655 - INFO - successfully executed
+2025-11-06 17:01:33,921 - INFO - _Finalized Model
+2025-11-06 17:01:34,015 - INFO - Train accuracy:0.7677622039632673
+2025-11-06 17:01:34,019 - INFO - Test accuracy:0.7579843860894251
+2025-11-06 17:01:34,019 - INFO - =====Model Saving======
+2025-11-06 17:01:34,021 - INFO - Index(['tenure', 'sim', 'Partner_Yes', 'Dependents_Yes', 'MultipleLines_Yes',
+       'InternetService_Fiber optic', 'InternetService_No',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_con', 'SeniorCitizen', 'MonthlyCharges', 'TotalCharges',
+       'JoinYear'],
+      dtype='object')

@@ -1,0 +1,254 @@
+2025-11-04 23:48:42,254 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-04 23:48:42,254 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-04 23:48:42,254 - INFO - JoinYear----->-0.34043249513496504
+2025-11-04 23:48:42,254 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-04 23:48:42,260 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-04 23:48:42,261 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-04 23:48:42,261 - INFO - JoinYear----->-0.3311957992738924
+2025-11-04 23:48:42,261 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 08:53:12,570 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 08:53:12,572 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 08:53:12,574 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 08:53:12,574 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 08:53:12,576 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 08:53:12,577 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 08:53:12,578 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 08:53:12,578 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:04:01,181 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 09:04:01,181 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 09:04:01,181 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 09:04:01,181 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:04:01,181 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 09:04:01,181 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 09:04:01,181 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 09:04:01,181 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:16:03,119 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 09:16:03,119 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 09:16:03,119 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 09:16:03,119 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:16:03,119 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 09:16:03,119 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 09:16:03,135 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 09:16:03,135 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:17:39,235 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 09:17:39,254 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 09:17:39,258 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 09:17:39,258 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:17:39,258 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 09:17:39,258 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 09:17:39,258 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 09:17:39,258 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:23:34,245 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 09:23:34,245 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 09:23:34,245 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 09:23:34,245 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 09:23:34,245 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 09:23:34,245 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 09:23:34,245 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 09:23:34,245 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:10:07,653 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 11:10:07,653 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 11:10:07,653 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 11:10:07,653 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:10:07,653 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 11:10:07,653 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 11:10:07,653 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 11:10:07,653 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:19:17,233 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 11:19:17,233 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 11:19:17,248 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 11:19:17,248 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:19:17,248 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 11:19:17,248 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 11:19:17,248 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 11:19:17,248 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:21:54,886 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 11:21:54,886 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 11:21:54,892 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 11:21:54,892 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:21:54,892 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 11:21:54,892 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 11:21:54,892 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 11:21:54,892 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:26:00,387 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 11:26:00,387 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 11:26:00,387 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 11:26:00,387 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 11:26:00,387 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 11:26:00,387 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 11:26:00,387 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 11:26:00,387 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:18:05,150 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:18:05,155 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:18:05,155 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:18:05,155 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:18:05,157 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:18:05,157 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:18:05,157 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:18:05,157 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:19:58,691 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:19:58,691 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:19:58,691 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:19:58,691 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:19:58,691 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:19:58,691 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:19:58,691 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:19:58,691 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:23:01,323 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:23:01,323 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:23:01,323 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:23:01,323 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:23:01,323 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:23:01,323 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:23:01,323 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:23:01,323 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:26:26,388 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:26:26,388 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:26:26,388 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:26:26,388 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:26:26,388 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:26:26,404 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:26:26,404 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:26:26,404 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:27:35,960 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:27:35,960 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:27:35,960 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:27:35,960 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:27:35,960 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:27:35,960 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:27:35,960 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:27:35,960 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:28:16,623 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:28:16,639 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:28:16,639 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:28:16,639 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:28:16,639 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:28:16,639 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:28:16,639 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:28:16,639 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:33:10,676 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:33:10,676 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:33:10,676 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:33:10,676 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:33:10,676 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:33:10,676 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:33:10,676 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:33:10,676 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:38:39,611 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 12:38:39,611 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 12:38:39,620 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 12:38:39,620 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 12:38:39,620 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 12:38:39,620 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 12:38:39,620 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 12:38:39,620 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 15:16:40,136 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 15:16:40,136 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 15:16:40,151 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 15:16:40,151 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 15:16:40,151 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 15:16:40,151 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 15:16:40,151 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 15:16:40,151 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 15:34:49,406 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 15:34:49,406 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 15:34:49,406 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 15:34:49,406 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 15:34:49,406 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 15:34:49,406 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 15:34:49,406 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 15:34:49,406 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 22:08:14,800 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-05 22:08:14,803 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-05 22:08:14,805 - INFO - JoinYear----->-0.34043249513496504
+2025-11-05 22:08:14,805 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-05 22:08:14,807 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-05 22:08:14,807 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-05 22:08:14,809 - INFO - JoinYear----->-0.3311957992738924
+2025-11-05 22:08:14,809 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 09:27:02,743 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 09:27:02,743 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 09:27:02,743 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 09:27:02,743 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 09:27:02,743 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 09:27:02,743 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 09:27:02,743 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 09:27:02,743 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:10:32,328 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:10:32,328 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:10:32,328 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:10:32,328 - INFO - spearman rank correlation:['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:10:32,328 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:10:32,328 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:10:32,328 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:10:32,328 - INFO - pearson rank ['MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:17:39,085 - INFO - tenure----->-0.36007466270852945
+2025-11-06 11:17:39,085 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:17:39,085 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:17:39,085 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:17:39,085 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:17:39,085 - INFO - tenure----->-0.3449250269621143
+2025-11-06 11:17:39,085 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:17:39,085 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:17:39,085 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:17:39,085 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:18:47,522 - INFO - tenure----->-0.36007466270852945
+2025-11-06 11:18:47,522 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:18:47,522 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:18:47,522 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:18:47,522 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:18:47,522 - INFO - tenure----->-0.3449250269621143
+2025-11-06 11:18:47,522 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:18:47,522 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:18:47,522 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:18:47,522 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:38:09,206 - INFO - tenure----->-0.36007466270852945
+2025-11-06 11:38:09,208 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:38:09,208 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:38:09,210 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:38:09,210 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:38:09,210 - INFO - tenure----->-0.3449250269621143
+2025-11-06 11:38:09,212 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:38:09,212 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:38:09,212 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:38:09,212 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:48:54,962 - INFO - tenure----->-0.36007466270852945
+2025-11-06 11:48:54,962 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:48:54,962 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:48:54,962 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:48:54,962 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:48:54,962 - INFO - tenure----->-0.3449250269621143
+2025-11-06 11:48:54,962 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:48:54,962 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:48:54,962 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:48:54,962 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:57:13,483 - INFO - tenure----->-0.36007466270852945
+2025-11-06 11:57:13,483 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 11:57:13,489 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 11:57:13,489 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 11:57:13,489 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 11:57:13,489 - INFO - tenure----->-0.3449250269621143
+2025-11-06 11:57:13,489 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 11:57:13,489 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 11:57:13,489 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 11:57:13,489 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 12:01:17,594 - INFO - tenure----->-0.36007466270852945
+2025-11-06 12:01:17,594 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 12:01:17,594 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 12:01:17,594 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 12:01:17,594 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 12:01:17,594 - INFO - tenure----->-0.3449250269621143
+2025-11-06 12:01:17,594 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 12:01:17,594 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 12:01:17,594 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 12:01:17,594 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 17:00:47,394 - INFO - tenure----->-0.36007466270852945
+2025-11-06 17:00:47,410 - INFO - MonthlyCharges----->0.17965145380350847
+2025-11-06 17:00:47,412 - INFO - TotalCharges----->-0.22682551374230628
+2025-11-06 17:00:47,412 - INFO - JoinYear----->-0.34043249513496504
+2025-11-06 17:00:47,412 - INFO - spearman rank correlation:['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']
+2025-11-06 17:00:47,412 - INFO - tenure----->-0.3449250269621143
+2025-11-06 17:00:47,412 - INFO - MonthlyCharges----->0.1632422183141177
+2025-11-06 17:00:47,412 - INFO - TotalCharges----->-0.22703935617129356
+2025-11-06 17:00:47,412 - INFO - JoinYear----->-0.3311957992738924
+2025-11-06 17:00:47,412 - INFO - pearson rank ['tenure', 'MonthlyCharges', 'TotalCharges', 'JoinYear']

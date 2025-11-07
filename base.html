@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title if title else 'Churn Prediction Dashboard' }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <h2>📊 Churn Dashboard</h2>
+  </div>
+  <div class="nav-right">
+    <a href="/" class="{% if title == 'Customer Churn Prediction' %}active{% endif %}">Prediction</a>
+    <a href="/about" class="{% if title == 'About the Model' %}active{% endif %}">About Model</a>
+    <a href="/developer" class="{% if title == 'Developer' %}active{% endif %}">Developer</a>
+  </div>
+</nav>
+
+<div class="main-content">
+  {% block content %}{% endblock %}
+</div>
+
+<footer class="footer">
+  &copy; 2025 Churn Prediction System
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,1548 @@
+2025-11-04 22:57:51,044 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 22:57:51,044 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 22:57:51,060 - INFO - Quantile transformation completed successfully.
+2025-11-04 22:57:51,060 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 22:57:51,060 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 22:57:51,060 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 22:57:59,501 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 22:57:59,501 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:00:19,922 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:00:19,922 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:00:19,938 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:00:19,938 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:00:19,938 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:00:19,938 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:00:28,712 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:00:28,712 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:01:25,574 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:01:25,574 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:01:25,590 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:01:25,590 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:01:25,590 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:01:25,602 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:01:25,602 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:01:25,606 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:13:44,883 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:13:44,884 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:13:44,904 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:13:44,905 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:13:44,907 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:13:44,910 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:13:44,914 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:13:44,915 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:35:21,014 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:35:21,014 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:35:21,035 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:35:21,035 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:35:21,035 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:35:21,040 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:35:21,040 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:35:21,040 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:40:05,110 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:40:05,110 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:40:05,132 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:40:05,132 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:40:05,132 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:40:05,137 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:40:05,138 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:40:05,138 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:48:42,001 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:48:42,001 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-04 23:48:42,023 - INFO - Quantile transformation completed successfully.
+2025-11-04 23:48:42,025 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-04 23:48:42,025 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-04 23:48:42,027 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-04 23:48:42,031 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-04 23:48:42,031 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 08:53:12,098 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 08:53:12,100 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 08:53:12,131 - INFO - Quantile transformation completed successfully.
+2025-11-05 08:53:12,132 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 08:53:12,133 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 08:53:12,142 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 08:53:12,153 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 08:53:12,157 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:04:00,685 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:04:00,685 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:04:00,752 - INFO - Quantile transformation completed successfully.
+2025-11-05 09:04:00,752 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 09:04:00,764 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 09:04:00,796 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 09:04:00,815 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 09:04:00,819 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:16:02,878 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:16:02,880 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:16:02,907 - INFO - Quantile transformation completed successfully.
+2025-11-05 09:16:02,907 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 09:16:02,907 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 09:16:02,914 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 09:16:02,919 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 09:16:02,919 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:17:38,938 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:17:38,938 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:17:38,966 - INFO - Quantile transformation completed successfully.
+2025-11-05 09:17:38,968 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 09:17:38,968 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 09:17:38,970 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 09:17:38,970 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 09:17:38,970 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:23:33,796 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:23:33,803 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 09:23:33,878 - INFO - Quantile transformation completed successfully.
+2025-11-05 09:23:33,878 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 09:23:33,878 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 09:23:33,890 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 09:23:33,901 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 09:23:33,903 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:10:07,479 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:10:07,479 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:10:07,494 - INFO - Quantile transformation completed successfully.
+2025-11-05 11:10:07,494 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 11:10:07,494 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 11:10:07,494 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 11:10:07,494 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 11:10:07,494 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:19:17,065 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:19:17,065 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:19:17,086 - INFO - Quantile transformation completed successfully.
+2025-11-05 11:19:17,086 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 11:19:17,086 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 11:19:17,086 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 11:19:17,092 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 11:19:17,092 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:21:54,726 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:21:54,726 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:21:54,735 - INFO - Quantile transformation completed successfully.
+2025-11-05 11:21:54,735 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 11:21:54,735 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 11:21:54,735 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 11:21:54,735 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 11:21:54,735 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:26:00,222 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:26:00,222 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 11:26:00,238 - INFO - Quantile transformation completed successfully.
+2025-11-05 11:26:00,238 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 11:26:00,238 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 11:26:00,238 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 11:26:00,248 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 11:26:00,248 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:18:04,986 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:18:04,986 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:18:04,996 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:18:04,996 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:18:04,996 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:18:04,996 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:18:05,012 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:18:05,012 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:19:58,466 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:19:58,468 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:19:58,485 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:19:58,485 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:19:58,485 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:19:58,491 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:19:58,495 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:19:58,497 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:23:01,175 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:23:01,175 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:23:01,191 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:23:01,191 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:23:01,191 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:23:01,195 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:23:01,198 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:23:01,198 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:26:26,253 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:26:26,253 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:26:26,261 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:26:26,261 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:26:26,261 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:26:26,261 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:26:26,261 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:26:26,261 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:27:35,801 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:27:35,801 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:27:35,815 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:27:35,815 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:27:35,815 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:27:35,815 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:27:35,831 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:27:35,831 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:28:16,484 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:28:16,484 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:28:16,496 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:28:16,496 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:28:16,496 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:28:16,496 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:28:16,512 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:28:16,512 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:33:10,508 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:33:10,508 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:33:10,515 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:33:10,515 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:33:10,515 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:33:10,515 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:33:10,515 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:33:10,531 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:38:39,445 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:38:39,445 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 12:38:39,463 - INFO - Quantile transformation completed successfully.
+2025-11-05 12:38:39,463 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 12:38:39,463 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 12:38:39,463 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 12:38:39,475 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 12:38:39,475 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:16:39,837 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 15:16:39,839 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 15:16:39,851 - INFO - Quantile transformation completed successfully.
+2025-11-05 15:16:39,851 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 15:16:39,851 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 15:16:39,863 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 15:16:39,863 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 15:16:39,877 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:34:49,086 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 15:34:49,086 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 15:34:49,132 - INFO - Quantile transformation completed successfully.
+2025-11-05 15:34:49,134 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 15:34:49,134 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 15:34:49,134 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 15:34:49,147 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 15:34:49,147 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 22:08:14,473 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 22:08:14,476 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-05 22:08:14,497 - INFO - Quantile transformation completed successfully.
+2025-11-05 22:08:14,497 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-05 22:08:14,498 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-05 22:08:14,502 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-05 22:08:14,507 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-05 22:08:14,510 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 09:27:02,341 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 09:27:02,341 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 09:27:02,379 - INFO - Quantile transformation completed successfully.
+2025-11-06 09:27:02,379 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 09:27:02,379 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 09:27:02,388 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 09:27:02,388 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 09:27:02,388 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:10:32,088 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:10:32,092 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:10:32,107 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:10:32,107 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:10:32,107 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:10:32,115 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:10:32,120 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:10:32,120 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:17:38,929 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:17:38,929 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:17:38,942 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:17:38,942 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:17:38,942 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:17:38,942 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:17:38,958 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:17:38,958 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:18:47,366 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:18:47,366 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:18:47,381 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:18:47,381 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:18:47,381 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:18:47,391 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:18:47,391 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:18:47,391 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:38:08,991 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:38:08,991 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:38:09,007 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:38:09,007 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:38:09,007 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:38:09,007 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:38:09,007 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:38:09,023 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:48:54,801 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:48:54,801 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:48:54,804 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:48:54,804 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:48:54,804 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:48:54,819 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:48:54,822 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:48:54,822 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:57:13,306 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:57:13,306 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 11:57:13,322 - INFO - Quantile transformation completed successfully.
+2025-11-06 11:57:13,322 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 11:57:13,322 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 11:57:13,322 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 11:57:13,322 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 11:57:13,322 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 12:01:17,422 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 12:01:17,422 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 12:01:17,438 - INFO - Quantile transformation completed successfully.
+2025-11-06 12:01:17,438 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 12:01:17,438 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 12:01:17,454 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 12:01:17,454 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 12:01:17,454 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 16:57:52,371 - INFO - dummy_x_train :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 16:57:52,373 - INFO - dummy_x_test :MonthlyCharges    0
+TotalCharges      0
+dtype: int64
+2025-11-06 16:57:52,384 - INFO - Quantile transformation completed successfully.
+2025-11-06 16:57:52,384 - INFO - MonthlyCharges_qt    0
+TotalCharges_qt      0
+dtype: int64
+2025-11-06 16:57:52,384 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+1212          -0.058999        -0.561292
+2722          -2.747453        -0.483500
+4006          -1.509656         0.003632
+6791          -0.646588        -0.400970
+5466          -1.384628        -0.947482
+2025-11-06 16:57:52,384 - INFO - Index(['MonthlyCharges_qt', 'TotalCharges_qt'], dtype='object')
+2025-11-06 16:57:52,384 - INFO - check      MonthlyCharges_qt  TotalCharges_qt
+2142          -0.147316        -0.041350
+1623           0.995273         1.025403
+6074          -0.963839        -2.018448
+1362          -0.018820        -0.903868
+6754          -0.184216        -0.481102
+...                 ...              ...
+3772           0.893908        -1.227211
+5191           0.744694         0.284947
+5226          -0.972106        -0.797836
+5390           1.088723        -0.114833
+860           -1.509656        -0.626159
+
+[5634 rows x 2 columns]
+2025-11-06 16:57:52,393 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')

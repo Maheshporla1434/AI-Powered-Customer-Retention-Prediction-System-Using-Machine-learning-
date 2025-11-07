@@ -1,0 +1,1080 @@
+2025-11-04 22:57:59,508 - INFO - None
+2025-11-04 22:57:59,524 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 22:58:04,489 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 22:58:04,489 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 22:58:04,489 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:00:28,727 - INFO - None
+2025-11-04 23:00:28,731 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:00:32,551 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:00:32,551 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:00:32,551 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:01:25,609 - INFO - None
+2025-11-04 23:01:25,609 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:01:25,628 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:01:25,628 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:01:25,628 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:13:44,928 - INFO - None
+2025-11-04 23:13:44,937 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:13:44,948 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:13:44,949 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:13:44,949 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:35:21,051 - INFO - None
+2025-11-04 23:35:21,061 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:35:21,073 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:35:21,073 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:35:21,073 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:40:05,147 - INFO - None
+2025-11-04 23:40:05,148 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:40:05,161 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:40:05,161 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:40:05,161 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:48:42,041 - INFO - None
+2025-11-04 23:48:42,054 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-04 23:48:42,063 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-04 23:48:42,063 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-04 23:48:42,063 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 08:53:12,175 - INFO - None
+2025-11-05 08:53:12,191 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 08:53:12,215 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 08:53:12,215 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 08:53:12,215 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:04:00,848 - INFO - None
+2025-11-05 09:04:00,870 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 09:04:00,907 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 09:04:00,907 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:04:00,907 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:16:02,935 - INFO - None
+2025-11-05 09:16:02,943 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 09:16:02,951 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 09:16:02,951 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:16:02,951 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:17:38,970 - INFO - None
+2025-11-05 09:17:38,986 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 09:17:39,005 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 09:17:39,005 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:17:39,005 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:23:33,922 - INFO - None
+2025-11-05 09:23:33,953 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 09:23:33,981 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 09:23:33,981 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 09:23:33,983 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:10:07,510 - INFO - None
+2025-11-05 11:10:07,510 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 11:10:07,526 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 11:10:07,526 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:10:07,526 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:19:17,092 - INFO - None
+2025-11-05 11:19:17,107 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 11:19:17,107 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 11:19:17,107 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:19:17,107 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:21:54,751 - INFO - None
+2025-11-05 11:21:54,751 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 11:21:54,765 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 11:21:54,765 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:21:54,765 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:26:00,253 - INFO - None
+2025-11-05 11:26:00,258 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 11:26:00,258 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 11:26:00,258 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 11:26:00,258 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:18:05,012 - INFO - None
+2025-11-05 12:18:05,012 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:18:05,028 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:18:05,028 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:18:05,028 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:19:58,501 - INFO - None
+2025-11-05 12:19:58,509 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:19:58,522 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:19:58,522 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:19:58,522 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:23:01,198 - INFO - None
+2025-11-05 12:23:01,198 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:23:01,212 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:23:01,212 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:23:01,212 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:26:26,279 - INFO - None
+2025-11-05 12:26:26,279 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:26:26,279 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:26:26,279 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:26:26,293 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:27:35,833 - INFO - None
+2025-11-05 12:27:35,833 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:27:35,847 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:27:35,847 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:27:35,847 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:28:16,512 - INFO - None
+2025-11-05 12:28:16,512 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:28:16,528 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:28:16,528 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:28:16,528 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:33:10,531 - INFO - None
+2025-11-05 12:33:10,531 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:33:10,553 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:33:10,553 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:33:10,553 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:38:39,475 - INFO - None
+2025-11-05 12:38:39,475 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 12:38:39,491 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 12:38:39,491 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 12:38:39,491 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:16:39,879 - INFO - None
+2025-11-05 15:16:39,899 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 15:16:39,911 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 15:16:39,911 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:16:39,911 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:34:49,163 - INFO - None
+2025-11-05 15:34:49,179 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 15:34:49,179 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 15:34:49,179 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 15:34:49,179 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 22:08:14,529 - INFO - None
+2025-11-05 22:08:14,539 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-05 22:08:14,555 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-05 22:08:14,555 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-05 22:08:14,555 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 09:27:02,420 - INFO - None
+2025-11-06 09:27:02,437 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 09:27:02,460 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 09:27:02,460 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 09:27:02,460 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:10:32,138 - INFO - None
+2025-11-06 11:10:32,141 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:10:32,163 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:10:32,163 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:10:32,163 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges',
+       'TotalCharges', 'sim', 'JoinYear', 'MonthlyCharges_qt',
+       'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:17:38,958 - INFO - None
+2025-11-06 11:17:38,968 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:17:38,974 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:17:38,974 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:17:38,974 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:18:47,391 - INFO - None
+2025-11-06 11:18:47,404 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:18:47,411 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:18:47,411 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:18:47,411 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:38:09,032 - INFO - None
+2025-11-06 11:38:09,039 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:38:09,048 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:38:09,048 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:38:09,048 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:48:54,830 - INFO - None
+2025-11-06 11:48:54,838 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:48:54,849 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:48:54,849 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:48:54,849 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:57:13,338 - INFO - None
+2025-11-06 11:57:13,350 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 11:57:13,358 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 11:57:13,358 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 11:57:13,358 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 12:01:17,454 - INFO - None
+2025-11-06 12:01:17,473 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 12:01:17,481 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 12:01:17,481 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 12:01:17,481 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 16:57:52,393 - INFO - None
+2025-11-06 16:57:52,407 - INFO -       MonthlyCharges_qt  TotalCharges_qt
+185           -0.848075        -1.883744
+2715          -0.783330        -0.207805
+3825          -2.119668        -0.180580
+1807           0.231828        -1.313614
+132           -0.419741         0.547886
+...                 ...              ...
+6366          -0.064193         0.827471
+315            1.823946         1.201406
+2439          -1.418119        -0.699127
+5002          -0.615025         0.479870
+1161          -0.700972        -1.799815
+
+[1409 rows x 2 columns]
+2025-11-06 17:00:47,252 - INFO - Checking the shape After trim:(5634, 2)
+2025-11-06 17:00:47,252 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
+2025-11-06 17:00:47,252 - INFO - Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'sim', 'JoinYear',
+       'MonthlyCharges_qt', 'TotalCharges_qt'],
+      dtype='object')
