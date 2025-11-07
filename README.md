@@ -1,6 +1,4 @@
-Here’s a **complete end-to-end README.md** file you can add to your GitHub repository for your project **“AI-Powered Customer Retention Prediction System Using Machine Learning”**. It follows professional standards and includes all essential sections for clarity, documentation, and reproducibility.
 
----
 
 # 🧠 AI-Powered Customer Retention Prediction System Using Machine Learning
 
