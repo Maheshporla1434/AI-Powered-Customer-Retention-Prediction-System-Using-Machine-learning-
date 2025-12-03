@@ -252,11 +252,11 @@ churn_app/
 ## 👩‍💻 Author
 
 **Porla Mahesh**
-*Data Science Intern, Vihara Tech*
-*📧 Gmail id:maheshporla1434@gmail.com)*
-*🌐 [LinkedIn Profile](www.linkedin.com/in/maheshporla264)*
+*Data Science Intern, Vihara Tech
+*📧 Gmail id:maheshporla1434@gmail.com)
+*🌐 [LinkedIn Profile](www.linkedin.com/in/maheshporla264
 *Contact No:7993253813*
-*Get here:https://ai-powered-customer-retention-prediction-2s70.onrender.com*
+*Get here:https://ai-powered-customer-retention-prediction-2s70.onrender.com
 ---
 
 # AI-Powered-Customer-Retention-Prediction-System-Using-Machine-learning-
